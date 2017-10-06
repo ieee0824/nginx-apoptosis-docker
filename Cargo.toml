@@ -1,0 +1,6 @@
+[package]
+name = "nginx-apoptosis-docker"
+version = "0.1.0"
+authors = ["ieee0824 <ieee0824@ezweb.ne.jp>"]
+
+[dependencies]
