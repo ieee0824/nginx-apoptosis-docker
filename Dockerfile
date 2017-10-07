@@ -10,6 +10,8 @@ RUN set -e \
 
 FROM nginx:latest 
 
+ENV TTL 86164
+
 COPY --from=build /usr/src/nginx/apoptosis-docker/target/release/nginx-apoptosis-docker /bin/nginx-apoptosis-docker
 
 CMD ["nginx-apoptosis-docker"]
